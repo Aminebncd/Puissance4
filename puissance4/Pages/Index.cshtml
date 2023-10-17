@@ -1,0 +1,77 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Puissance 4";
+}
+
+<style>
+    /* Style pour le joueur 1 (rouge) */
+    .player-1 {
+        background-color: red;
+        color: white;
+    }
+
+    /* Style pour le joueur 2 (jaune) */
+    .player-2 {
+        background-color: yellow;
+        color: black;
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .round-btn {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        font-size: 24px;
+    }
+</style>
+
+<h1>Puissance 4</h1>
+<table>
+    @for (int row = 0; row < 6; row++)
+    {
+        <tr>
+            @for (int col = 0; col < 7; col++)
+            {
+                <td class="cell">
+                    <button asp-page-handler="DropPiece" asp-route-row="@row" asp-route-col="@col" class="round-btn @Model.GetButtonClass(row, col)"></button>
+                </td>
+            }
+        </tr>
+    }
+</table>
+
+<input id="playerInput" type="text" style="display:none;" />
+
+<script>document.addEventListener('DOMContentLoaded', function () {
+        const playerInput = document.getElementById('playerInput');
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === 'v' || e.key === 'V') {
+                // Déclencher la méthode OnPostDropPiece lorsqu'une touche spécifique est pressée.
+                const selectedButton = document.querySelector('.selected');
+                if (selectedButton) {
+                    const row = selectedButton.getAttribute('data-row');
+                    const col = selectedButton.getAttribute('data-col');
+                    playerInput.value = row + '-' + col;
+                    playerInput.form.submit();
+                }
+            }
+        });
+
+        // Ajouter la classe 'selected' aux boutons pour indiquer le bouton actuellement sélectionné.
+        const buttons = document.querySelectorAll('.round-btn');
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                buttons.forEach(function (btn) {
+                    btn.classList.remove('selected');
+                });
+                button.classList.add('selected');
+            });
+        });
+    });</script>

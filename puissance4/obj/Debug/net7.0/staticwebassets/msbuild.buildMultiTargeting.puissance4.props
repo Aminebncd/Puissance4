@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/puissance4.props" />
+</Project>

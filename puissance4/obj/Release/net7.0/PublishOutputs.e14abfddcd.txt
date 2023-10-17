@@ -1,0 +1,7 @@
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/puissance4
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/appsettings.json
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/puissance4.dll
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/puissance4.deps.json
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/puissance4.runtimeconfig.json
+/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/bin/Release/net7.0/publish/puissance4.pdb
