@@ -1,22 +1,17 @@
 ﻿<Properties StartupConfiguration="{48F8DD8D-86AA-4282-8829-3C775EB23085}|https">
   <MonoDevelop.Ide.ItemProperties.puissance4 PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
     <Files>
       <File FileName="Pages/Index.cshtml" Line="41" Column="11" />
-      <File FileName="Pages/Index.cshtml.cs" Line="37" Column="1" />
+      <File FileName="Pages/Index.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="puissance4">
-            <Node name="puissance4">
-              <Node name="Pages">
+            <Node name="puissance4" expanded="True">
+              <Node name="Pages" expanded="True">
                 <Node name="Index.cshtml" selected="True" />
               </Node>
             </Node>
@@ -25,4 +20,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
