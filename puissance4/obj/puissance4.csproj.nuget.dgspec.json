@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/puissance4.csproj": {}
+    "/Users/aminebncd/Documents/projets/GitHub/ProjetPuissance4/puissance4/puissance4.csproj": {}
   },
   "projects": {
-    "/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/puissance4.csproj": {
+    "/Users/aminebncd/Documents/projets/GitHub/ProjetPuissance4/puissance4/puissance4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/puissance4.csproj",
+        "projectUniqueName": "/Users/aminebncd/Documents/projets/GitHub/ProjetPuissance4/puissance4/puissance4.csproj",
         "projectName": "puissance4",
-        "projectPath": "/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/puissance4.csproj",
+        "projectPath": "/Users/aminebncd/Documents/projets/GitHub/ProjetPuissance4/puissance4/puissance4.csproj",
         "packagesPath": "/Users/aminebncd/.nuget/packages/",
-        "outputPath": "/Users/aminebncd/Documents/projets/GIT_TEST/puissance4/puissance4/obj/",
+        "outputPath": "/Users/aminebncd/Documents/projets/GitHub/ProjetPuissance4/puissance4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aminebncd/.nuget/NuGet/NuGet.Config"
